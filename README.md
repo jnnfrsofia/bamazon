@@ -18,19 +18,19 @@ In this application, customers are allowed to purchase items.
 
 Once you've entered, 'node bamazonCust.js' in the CLI, the inventory table will display and you will be prompted for an item id.
 
-![Screenshot](/images/screenshot1.jpg)
+![Screenshot](./images/screenshot1.jpg)
 
 After you've entered the item id, you will be asked how many of this item you would like to purchase.
 
-![Screenshot](/images/screenshot2.jpg)
+![Screenshot](./images/screenshot2.jpg)
 
 If there is enough of this item in stock, you will be given your total amount due, and the inventory table with updated stock quantities will be displayed. The prompt will start again.
 
-![Screenshot](/images/screenshot3.jpg)
+![Screenshot](./images/screenshot3.jpg)
 
 If you enter a quantity of an item higher than Bamazon has in stock, the app will alert you of the insufficient quantity, and the app will restart.
 
-![Screenshot](/images/screenshot4.jpg)
+![Screenshot](./images/screenshot4.jpg)
 
 
 

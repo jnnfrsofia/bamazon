@@ -13,7 +13,7 @@ In order to run this application, you will need to install the MySQL database to
 
 ## NPM Installation Steps
 
-1. First install the MYSQL, Inquirer, and CLI-Table1 NPMs.
+1. First install the MYSQL, Inquirer, and CLI-Table2 NPMs.
 2. Git clone this repository onto your computer: https://github.com/jnnfrsofia/bamazon.git
 3. Run 'node bamazonCust.js' in the CLI.
 

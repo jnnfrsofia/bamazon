@@ -19,7 +19,6 @@ connection.connect(function(err) {
     // console.log("connection working")
     //start the bamazon app
     showInventory();
-
 });
 
 //function that will display the current bamazon inventory
@@ -32,9 +31,7 @@ function showInventory() {
         //calling the prompt user function to ask the customer what they'd like to buy after inventory table has 
         //been displayed
         promptUser();
-
     });
-
 }
 
 //function that uses the cli-table 2 npm to create an easy to read table
@@ -44,7 +41,7 @@ function printTable(res) {
         head: ['Item ID', 'Product Name', 'Department', 'Price', 'Current Inventory'],
         colWidths: [10, 35, 30, 10, 20]
     });
-    //for loop that pushes the data from the product table rows into the new table created
+    //for loop that pushes the data from the table 'products' rows into the new table created
     for (var i = 0; i < res.length; i++) {
         table.push([res[i].item_id, res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]);
     }
@@ -91,8 +88,6 @@ function promptUser() {
                             showInventory();
                         });
                 }
-
-
                 //if there is not enough in stock, the user will be told to order less of the item and the showInventory function
                 //will start again
                 else {
@@ -103,7 +98,4 @@ function promptUser() {
             });
 
         });
-
-
-
 }

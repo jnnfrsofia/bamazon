@@ -1,6 +1,6 @@
-#Bamazon
+# Bamazon
 
-##Overview
+## Overview
 
 Bamazon is an interactive shopping node app that uses MySQL and Node.JS. I also used the CLI-Table 2 NPM to display the table in an easy to read fashion for the customer. 
 
@@ -14,7 +14,7 @@ In this application, customers are allowed to purchase items.
 4. Now you are ready to shop!
 
 
-###Shopping Guide
+### Shopping Guide
 
 Once you've entered, 'node bamazonCust.js' in the CLI, the inventory table will display and you will be prompted for an item id.
 
